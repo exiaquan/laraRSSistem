@@ -65,27 +65,7 @@
         <!-- END wrapper -->
 
         <!-- Right Sidebar -->
-        <div class="right-bar">
-            <div data-simplebar class="h-100">
 
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs nav-bordered nav-justified" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link py-2" data-bs-toggle="tab" href="#chat-tab" role="tab">
-                            <i class="mdi mdi-message-text d-block font-22 my-1"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link py-2" data-bs-toggle="tab" href="#tasks-tab" role="tab">
-                            <i class="mdi mdi-format-list-checkbox d-block font-22 my-1"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link py-2 active" data-bs-toggle="tab" href="#settings-tab" role="tab">
-                            <i class="mdi mdi-cog-outline d-block font-22 my-1"></i>
-                        </a>
-                    </li>
-                </ul>
 
                 <!-- Tab panes -->
                 <div class="tab-content pt-0">
