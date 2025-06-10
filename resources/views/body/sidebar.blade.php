@@ -51,13 +51,13 @@
                 <li>
                     <a href="#sidebarCrm" data-bs-toggle="collapse">
                         <i class="mdi mdi-account-multiple-outline"></i>
-                        <span> Customer </span>
+                        <span> Dokter </span>
                         <span class="menu-arrow"></span>
                     </a>
                     <div class="collapse" id="sidebarCrm">
                         <ul class="nav-second-level">
                             <li>
-                                <a href="#">Customer</a>
+                                <a href="{{route ('data.dokter')}}">Dokter</a>
                             </li>
                             <li>
                                 <a href="#">Add Customer</a>
