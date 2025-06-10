@@ -39,7 +39,7 @@
                     <div class="collapse" id="sidebarEcommerce">
                         <ul class="nav-second-level">
                             <li>
-                                <a href="#">Data Pasien</a>
+                                <a href="{{route ('data.pasien')}}">Data Pasien</a>
                             </li>
                             <li>
                                 <a href="#">Tambah Pasien</a>

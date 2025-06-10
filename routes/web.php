@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Backend\DokterController;
+use App\Http\Controllers\Backend\PasienController;
 
 
 /*
@@ -39,7 +40,15 @@ Route::middleware('auth')->group(function () {
         Route::post('/update/karyawan', 'UpdateKaryawan')->name('karyawan.update');
         Route::get('/delete/karyawan/{id}', 'DeleteKaryawan')->name('delete.karyawan');
     });
-
+    //Pasien
+      Route::controller(PasienController::class)->group(function(){
+        Route::get('/all/pasien', 'AllPasien')->name('data.pasien');
+        Route::get('/tambah/karyawan', 'TambahKaryawan')->name('add.karyawan');
+        Route::post('/save/karyawan', 'SaveKaryawan')->name('karyawan.tambah');
+        Route::get('/edit/karyawan/{id}', 'EditKaryawan')->name('edit.karyawan');
+        Route::post('/update/karyawan', 'UpdateKaryawan')->name('karyawan.update');
+        Route::get('/delete/karyawan/{id}', 'DeleteKaryawan')->name('delete.karyawan');
+    });
 });
 
 require __DIR__.'/auth.php';
