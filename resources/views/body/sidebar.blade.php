@@ -50,7 +50,7 @@
 
                 <li>
                     <a href="#sidebarCrm" data-bs-toggle="collapse">
-                        <i class="mdi mdi-account-multiple-outline"></i>
+                        <i class="mdi mdi-stethoscope"></i>
                         <span> Dokter </span>
                         <span class="menu-arrow"></span>
                     </a>
