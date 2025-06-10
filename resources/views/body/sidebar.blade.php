@@ -66,6 +66,24 @@
                     </div>
                 </li>
 
+                 <li>
+                    <a href="#sidebarJadwal" data-bs-toggle="collapse">
+                        <i class="mdi mdi-calendar"></i>
+                        <span> Jadwal Dokter </span>
+                        <span class="menu-arrow"></span>
+                    </a>
+                    <div class="collapse" id="sidebarJadwal">
+                        <ul class="nav-second-level">
+                            <li>
+                                <a href="#">Jadwal Dokter</a>
+                            </li>
+                            <li>
+                                <a href="#">Add Jadwal</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
                 <li>
                     <a href="#sidebarEmail" data-bs-toggle="collapse">
                         <i class="mdi mdi-factory"></i>
